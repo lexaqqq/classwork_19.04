@@ -1,0 +1,30 @@
+#menu, #menu li{
+    margin: 0;
+    padding: 0;
+}
+
+#menu{
+    text-align: center;
+
+}
+#menu li, #menu .first{
+    display: inline-block;
+    text-align: center;
+}
+#menu a {
+    display: inline-block;
+    padding: 5px 15px;
+}
+ #menu .first{
+    float: left;
+
+}
+#menu .second{
+    float: right;
+}
+p{
+    display: inline-block;
+}
+#menu .first, #menu .second{
+    cursor: pointer;
+}
